@@ -1,0 +1,32 @@
+body{	
+	font-family: "Helvetica";
+	font-size: 13px;
+	line-height: 1.5;
+	background-color: #edeff0;
+	font-weight: bold;
+}
+
+p{
+	color: #b2bac2;
+}
+
+
+
+.welcome{
+	margin: 5px auto;
+	width: 700px;
+	background-color: white;
+	padding: 15px 15px 15px 15px;
+}
+
+.welcome h1{
+	font-size: 28px;
+	color: ​#384047;
+	font-weight: bold;
+	
+}
+
+.welcome .sect h2{
+	font-size: 16px;
+	font-weight: bold;
+}

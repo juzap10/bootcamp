@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="datetimepicker/css/bootstrap-datetimepicker.min.css">
+	<title>Mis Finanzas</title>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" 
+				class="navbar-toggle collapsed" 
+				data-toggle="collapse"
+				data-target="#main_navbar" 
+				aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+
+			</button>
+			<a class="navbar-brand" href="#">mis<strong>finanzas</strong></a>
+		</div>
+		<div class="collapse navbar-collapse" id="main_navbar">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="#"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"> Resumen</span></a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"> Transacciones</span></a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Salir</a></li>
+			</ul>
+		</div>
+
+	</div>
+</nav>
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<form class="form-inline-lg">
+				<div class="form-group">
+
+					<div class="input-group">			     
+						<input type="text" class="form-control" id="exampleInputAmount" placeholder="Buscar">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon glyphicon-search"></span>
+						</div>
+					</div>
+				</div>
+
+			</form>
+
+			<div class="list-group">
+				<a class="list-group-item" href="#">Ingresos</a>
+				<a class="list-group-item" href="#">Gastos</a>
+			</div>
+
+			<div class="list-group">
+				<a class="list-group-item" href="#">Restaurentes</a>
+				<a class="list-group-item" href="#">Hogar</a>
+				<a class="list-group-item" href="#">Diversión</a>
+				<a class="list-group-item" href="#">Viajes</a>
+				<a class="list-group-item" href="#">Carro</a>
+			</div>
+
+		</div>
+		<div class="col-md-9">
+				<div class="row " >
+					<div class="col-md-10">
+						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus"> </span>Nueva Transacción</button>
+					</div>
+					<div class="col-md-1">
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  Agosto 2014
+								<span class="caret"></span>
+							</button>					 
+						</div>
+					</div>
+				</div>
+				<div class="tabla-ingresos" style="margin:20px 0px 0px 0px; width:100%;">
+					<table class="table table-hover table-condensed">
+						<tbody>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>26</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Hogar</span></small><br>Arriendo</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$900,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>25</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Restaurante</span></small><br>El Rincón de mi tierra</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$120,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>24</h4>
+								</td>
+								<td >
+									<h4><small>ingreso</small><br>Salario</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$4'500,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>26</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Hogar</span></small><br>Arriendo</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$900,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>25</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Restaurante</span></small><br>El Rincón de mi tierra</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$120,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>24</h4>
+								</td>
+								<td >
+									<h4><small>ingreso</small><br>Salario</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$4'500,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>26</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Hogar</span></small><br>Arriendo</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$900,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>25</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Restaurante</span></small><br>El Rincón de mi tierra</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$120,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>24</h4>
+								</td>
+								<td >
+									<h4><small>ingreso</small><br>Salario</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$4'500,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>26</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Hogar</span></small><br>Arriendo</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$900,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>25</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Restaurante</span></small><br>El Rincón de mi tierra</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$120,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>24</h4>
+								</td>
+								<td >
+									<h4><small>ingreso</small><br>Salario</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$4'500,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>26</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Hogar</span></small><br>Arriendo</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$900,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>25</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Restaurante</span></small><br>El Rincón de mi tierra</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$120,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>24</h4>
+								</td>
+								<td >
+									<h4><small>ingreso</small><br>Salario</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$4'500,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>26</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Hogar</span></small><br>Arriendo</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$900,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>25</h4>
+								</td>
+								<td >
+									<h4><small>Gasto <span class="label label-info">Restaurante</span></small><br>El Rincón de mi tierra</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$120,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="30">
+									<h4><small>Ago</small><br>24</h4>
+								</td>
+								<td >
+									<h4><small>ingreso</small><br>Salario</h4>
+								</td>
+								<td>
+									<h4 class="text-right">$4'500,000<br>
+										<small>
+											<span class="glyphicon glyphicon-pencil" aria-hidden="true">Editar</span>
+											<span class="glyphicon glyphicon-trash" aria-hidden="true">Eliminar</span>
+										</small>
+									</h4>
+								</td>
+							</tr>	
+						</tbody>
+					</table>	
+				</div>
+
+		</div>
+	</div>		
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+</body>
+</html>
